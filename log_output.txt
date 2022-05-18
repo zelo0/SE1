@@ -1,0 +1,43 @@
+[lastname-dev] Thu May 19 02:07:56 2022 +0900 소프트웨어 공학 과제2 fb21158
+[5daesu] Thu May 19 02:05:18 2022 +0900 Merge branch 'master' of https://github.com/zelo0/SE1 d9a2467
+[5daesu] Thu May 19 02:04:54 2022 +0900 캡쳐본 1445e45
+[lastname-dev] Thu May 19 01:54:31 2022 +0900 소프트웨어공학 과제 2 통합본 d06644e
+[5daesu] Thu May 19 01:50:02 2022 +0900 클래스통합 67708c7
+[zelo0] Thu May 19 01:24:40 2022 +0900 컬렉션 제거본 e101de3
+[lastname-dev] Thu May 19 01:19:17 2022 +0900 소공2 bcaace7
+[lastname-dev] Thu May 19 01:12:59 2022 +0900 class diagram ec310a8
+[zelo0] Thu May 19 00:09:56 2022 +0900 커뮤니케이션 다이어그램 하나 수정 721a2b6
+[5daesu] Wed May 18 23:46:10 2022 +0900 Merge branch 'master' of https://github.com/zelo0/SE1 bda022a
+[5daesu] Wed May 18 23:45:52 2022 +0900 캡쳐본추가 5922fc3
+[zelo0] Wed May 18 23:41:28 2022 +0900 다이어그램 수정(테두리, 유스케이스 이름 명시) b238866
+[zelo0] Wed May 18 23:39:00 2022 +0900 다이어그램 수정 de24f06
+[lastname-dev] Wed May 18 23:37:34 2022 +0900 version 1.1 5899bb6
+[lastname-dev] Wed May 18 23:31:15 2022 +0900 version 1 6389e33
+[5daesu] Wed May 18 23:21:10 2022 +0900 Merge branch 'master' of https://github.com/zelo0/SE1 7d32dd4
+[5daesu] Wed May 18 23:20:40 2022 +0900 회의후 67a75ac
+[zelo0] Wed May 18 23:10:27 2022 +0900 과제2 다이어그램 제외 부분 cd9732e
+[5daesu] Wed May 18 17:36:45 2022 +0900 양식맞춤본 5eeb98f
+[5daesu] Wed May 18 17:33:30 2022 +0900 양식맞춤본 1b54b88
+[zelo0] Wed May 18 00:12:50 2022 +0900 associative diagram까지 그림 4d70c85
+[5daesu] Tue May 17 22:33:41 2022 +0900 김현서 과제2 commu,class dia 55aaf55
+[5daesu] Tue May 17 22:30:44 2022 +0900 Merge branch 'master' of https://github.com/zelo0/SE1 9587ccb
+[zelo0] Sun May 15 21:29:09 2022 +0900 커뮤니케이션 다이어그램 Jung 82d74f2
+[zelo0] Sun May 15 21:07:17 2022 +0900 Merge branch 'master' of https://github.com/zelo0/SE1 c32735e
+[lastname-dev] Sun May 15 20:02:51 2022 +0900 usecase diagram, communication diagram d412370
+[jongmyung] Sun May 15 19:26:06 2022 +0900 requirement list,description 7e8b42e
+[5daesu] Fri May 13 16:00:26 2022 +0900 과제2 18947eb
+[zelo0] Sun May 1 23:54:12 2022 +0900 통합된 최종본 유스케이스 다이어그램 png 3dea2ba
+[zelo0] Sun May 1 23:51:24 2022 +0900 part2 png 파일 업로드 71962a5
+[zelo0] Sun May 1 20:52:09 2022 +0900 document 워드 파일 c3dbd05
+[zelo0] Sun May 1 20:46:18 2022 +0900 use case 다이어그램 통합본 0bcb5c7
+[zelo0] Sun May 1 19:03:43 2022 +0900 document part2 최종본 업로드 7f828a2
+[zelo0] Sun May 1 18:59:12 2022 +0900 유스케이스 다이어그램 최좆본 50c2514
+[zelo0] Sun May 1 01:32:20 2022 +0900 document v2 - ui 스크린샷 추가 072f3c6
+[zelo0] Sun May 1 01:26:39 2022 +0900 qna1 반영(ver3) 6464f30
+[5daesu] Sat Apr 30 21:10:55 2022 +0900 김현서 065aee7
+[zelo0] Sat Apr 30 20:17:08 2022 +0900 구매자 판매자 분리 (ver2) e6c665c
+[zelo0] Fri Apr 29 10:51:47 2022 +0900 docuement v1 업로드 8eebaf7
+[5daesu] Thu Apr 28 00:10:27 2022 +0900 Add files via upload 097f631
+[zelo0] Wed Apr 27 23:12:01 2022 +0900 usecaseDiagram 파일 이름 변경 - 'part2' 추가 802b922
+[zelo0] Wed Apr 27 23:02:44 2022 +0900 part2 use case diagram 버전 1 631518c
+[zelo0] Sat Apr 23 19:04:53 2022 +0900 first commit 34e0331
