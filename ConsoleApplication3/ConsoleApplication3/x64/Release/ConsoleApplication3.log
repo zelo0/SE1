@@ -1,0 +1,25 @@
+﻿  EvaluateProduct.cpp
+  EvaluateProductUI.cpp
+  Main.cpp
+C:\Users\minor\Desktop\SE1\fourthCode\Main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Product.cpp
+  ProductBoughtCollection.cpp
+  ProductBoughtDto.cpp
+  ProductSoldCollection.cpp
+  ProductSoldoutDto.cpp
+  Rating.cpp
+  RatingCollection.cpp
+  ShowProductsBought.cpp
+  ShowProductsBoughtUI.cpp
+  ShowProductsSoldout.cpp
+  ShowProductsSoldoutUI.cpp
+  ShowProudcstBoughtUI.cpp
+  ShowStatistics.cpp
+  ShowStatisticsUI.cpp
+  Statistic.cpp
+  User.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 191 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  ConsoleApplication3.vcxproj -> C:\Users\minor\source\repos\ConsoleApplication3\x64\Release\ConsoleApplication3.exe
