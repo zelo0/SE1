@@ -4,6 +4,7 @@
 
 #include <string>
 #include "User.h"
+#include "Product.h"
 #include "EvaluateProductUI.h"
 using namespace std;
 
@@ -41,17 +42,19 @@ public:
 
 
   // Public attribute accessor methods
-  //
+  //  
+
+
 
   /**
    * @param  user
    */
    EvaluateProduct(User* user)
   {
-    setProductName(EvaluateProductUI::readProductName());
-    setRatingScore(EvaluateProductUI::readScore());
+    setProductName(ui.readProductName());
+    setRatingScore(ui.readScore());
     Product* product = user->addRating(productName, ratingScore);
-    EvaluateProductUI::print(product);
+    ui.print(product);
   }
 
 protected:
@@ -76,9 +79,10 @@ private:
   // Private attributes
   //  
 
-  User* user;
   std::string productName;
   int ratingScore;
+  User* user;
+  EvaluateProductUI ui;
 
   // Private attribute accessor methods
   //  
@@ -86,25 +90,6 @@ private:
 
   // Private attribute accessor methods
   //  
-
-  
-  /**
-   * Set the value of user
-   * @param value the new value of user
-   */
-  void setUser(User* value)
-  {
-    user = value;
-  }
-
-  /**
-   * Get the value of user
-   * @return the value of user
-   */
-  User* getUser()
-  {
-    return user;
-  }
 
 
   /**
@@ -141,6 +126,42 @@ private:
   int getRatingScore()
   {
     return ratingScore;
+  }
+
+  /**
+   * Set the value of user
+   * @param value the new value of user
+   */
+  void setUser(User* value)
+  {
+    user = value;
+  }
+
+  /**
+   * Get the value of user
+   * @return the value of user
+   */
+  User* getUser()
+  {
+    return user;
+  }
+
+  /**
+   * Set the value of ui
+   * @param value the new value of ui
+   */
+  void setUi(EvaluateProductUI value)
+  {
+    ui = value;
+  }
+
+  /**
+   * Get the value of ui
+   * @return the value of ui
+   */
+  EvaluateProductUI getUi()
+  {
+    return ui;
   }
 
   void initAttributes();

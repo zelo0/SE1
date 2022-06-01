@@ -4,6 +4,7 @@
 
 #include <string>
 #include <vector>
+#include <cmath>
 #include "Rating.h"
 using namespace std;
 
@@ -46,10 +47,10 @@ public:
 
 
   /**
-   * @return double
+   * @return int
    * @param  ratingScore
    */
-  double addRating(int ratingScore)
+  int addRating(int ratingScore)
   {
     takenRating.push_back(new Rating(ratingScore));
     return getAverageRate();
@@ -57,16 +58,16 @@ public:
 
 
   /**
-   * @return double
+   * @return int
    */
-  double getAverageRate()
+  int getAverageRate()
   {
     double sum = 0;
     for (size_t i = 0; i < takenRating.size(); i++)
     {
       sum += takenRating[i]->getScore();
     }
-    return sum / takenRating.size();
+    return int(round(sum / takenRating.size()));
   }
 
 protected:

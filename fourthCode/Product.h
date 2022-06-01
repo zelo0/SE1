@@ -174,7 +174,7 @@ public:
    * Set the value of averageRate
    * @param value the new value of averageRate
    */
-  void setAverageRate(double value)
+  void setAverageRate(int value)
   {
     averageRate = value;
   }
@@ -183,7 +183,7 @@ public:
    * Get the value of averageRate
    * @return the value of averageRate
    */
-  double getAverageRate()
+  int getAverageRate()
   {
     return averageRate;
   }
@@ -237,7 +237,7 @@ private:
   RatingCollection takenRatingCollection;
   int sellerId;
   int quantity;
-  double averageRate;
+  int averageRate;
 
   // Private attribute accessor methods
   //  

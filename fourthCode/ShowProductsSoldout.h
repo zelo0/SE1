@@ -9,6 +9,7 @@
 #include "ShowProductsSoldoutUI.h"
 using namespace std;
 
+
 /**
   * class ShowProductsSoldout
   * 
@@ -52,7 +53,7 @@ public:
    */
    ShowProductsSoldout(User* user)
   {
-       ShowProductsSoldoutUI::print(user->listProductsSoldOut());
+    ui.print(user->listProductsSoldOut());
   }
 
 protected:
@@ -78,6 +79,7 @@ private:
   //  
 
   User* user;
+  ShowProductsSoldoutUI ui;
 
   // Private attribute accessor methods
   //  
@@ -103,6 +105,24 @@ private:
   User* getUser()
   {
     return user;
+  }
+
+  /**
+   * Set the value of ui
+   * @param value the new value of ui
+   */
+  void setUi(ShowProductsSoldoutUI value)
+  {
+    ui = value;
+  }
+
+  /**
+   * Get the value of ui
+   * @return the value of ui
+   */
+  ShowProductsSoldoutUI getUi()
+  {
+    return ui;
   }
 
   void initAttributes();

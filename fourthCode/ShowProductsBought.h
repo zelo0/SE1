@@ -6,7 +6,6 @@
 #include "User.h"
 #include "ShowProductsBoughtUI.h"
 
-
 /**
   * class ShowProductsBought
   * 
@@ -50,7 +49,7 @@ public:
    */
    ShowProductsBought(User* user)
   {
-    ShowProductsBoughtUI::print(user->listProductsBought());
+    ui.print(user->listProductsBought());
   }
 
 protected:
@@ -76,6 +75,7 @@ private:
   //  
 
   User* user;
+  ShowProductsBoughtUI ui;
 
   // Private attribute accessor methods
   //  
@@ -101,6 +101,24 @@ private:
   User* getUser()
   {
     return user;
+  }
+
+  /**
+   * Set the value of ui
+   * @param value the new value of ui
+   */
+  void setUi(ShowProductsBoughtUI value)
+  {
+    ui = value;
+  }
+
+  /**
+   * Get the value of ui
+   * @return the value of ui
+   */
+  ShowProductsBoughtUI getUi()
+  {
+    return ui;
   }
 
   void initAttributes();
