@@ -29,16 +29,6 @@ public:
     ui.print(user->listProductsBought());
   }
 
-  void setUser(User value)
-  {
-    user = value;
-  }
-
-  User getUser()
-  {
-    return user;
-  }
-
   void setUi(ShowProductsBoughtUI value)
   {
     ui = value;
@@ -53,7 +43,6 @@ private:
   // Private attributes
   //
 
-  User user;
   ShowProductsBoughtUI ui;
 };
 

@@ -30,17 +30,8 @@ public:
 
   ShowProductsSoldout(User *user)
   {
-    ui.print(user->listProductsSoldOut());
-  }
-
-  void setUser(User *value)
-  {
-    user = value;
-  }
-
-  User *getUser()
-  {
-    return user;
+    vector<Product*> productList =  user->listProductsSoldOut();
+    ui.print(productList);
   }
 
   void setUi(ShowProductsSoldoutUI value)
@@ -57,7 +48,6 @@ private:
   // Private attributes
   //
 
-  User *user;
   ShowProductsSoldoutUI ui;
 };
 

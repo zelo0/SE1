@@ -14,7 +14,6 @@ UserCollection userCollection;
 bool loginState = 0;	//로그인 유무
 string connectedID;		//접속중인 ID
 int i;					//인덱스 i
-
 User* connectedUser;	//접속중인 User
 
 

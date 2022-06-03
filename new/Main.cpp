@@ -5,9 +5,9 @@
 #include "User.h"
 #include "Product.h"
 #include "ShowProductsBought.h"
+#include "ShowProductsSoldout.h"
 #include "EvaluateProduct.h"
 #include "ShowStatistics.h"
-#include "collection.h"
 #include "BoundaryClass.h"
 #include "ControlClass.h"
 
@@ -17,7 +17,7 @@ using namespace std;
 
 // 함수 선언
 void doTask();
-void program_exit();
+void exitProgram();
 
 // 변수 선언
 
@@ -41,29 +41,29 @@ int main()
 
 void doTask()
 {
-	int menu_level_1 = 0;
-	int menu_level_2 = 0;
-	int is_program_exit = 0;
+	int menuLevel1 = 0;
+	int menuLevel2 = 0;
+	int isProgramExit = 0;
 	cout << "start" << endl;
 
-	while (!is_program_exit)
+	while (!isProgramExit)
 	{
-		fin >> menu_level_1;
-		fin >> menu_level_2;
-		switch (menu_level_1)
+		fin >> menuLevel1;
+		fin >> menuLevel2;
+		switch (menuLevel1)
 		{
 		case 1:
 		{
-			switch (menu_level_2)
+			switch (menuLevel2)
 			{
 			case 1:
 			{
-				cout << menu_level_1 << " " << menu_level_2 << endl;
+				cout << menuLevel1 << " " << menuLevel2 << endl;
 				new CreateAccount(&userCollection);
 				break;
 			}
 			case 2:
-				cout << menu_level_1 << " " << menu_level_2 << endl;
+				cout << menuLevel1 << " " << menuLevel2 << endl;
 				new RemoveAccount(connectedID);
 				userCollection.removeAccount(connectedID);
 				break;
@@ -72,16 +72,16 @@ void doTask()
 		}
 		case 2:
 		{
-			switch (menu_level_2)
+			switch (menuLevel2)
 			{
 			case 1:
-				cout << menu_level_1 << " " << menu_level_2 << endl;
+				cout << menuLevel1 << " " << menuLevel2 << endl;
 				new Login(&userCollection);
 				connectedID = loginedUser->getId();
 				loginState = true;
 				break;
 			case 2:
-				cout << menu_level_1 << " " << menu_level_2 << endl;
+				cout << menuLevel1 << " " << menuLevel2 << endl;
 				new Logout(connectedID);
 				loginState = logOut();
 				connectedID = "x";
@@ -91,7 +91,7 @@ void doTask()
 		}
 		case 3:
 		{
-			switch (menu_level_2)
+			switch (menuLevel2)
 			{
 			case 1: // 3.1 판매 의류 등록
 
@@ -100,12 +100,16 @@ void doTask()
 			case 2: // 3.2 등록 상품 조회
 				userCollection.findUserById(connectedID)->getProductSoldCollection().showProductSelling(); // 유저.ProductSelling
 				break;
+			case 3: // 3 3 판매 완료 상품 조회
+				new ShowProductsSoldout(loginedUser);
+				break;
 			}
+
 			break;
 		}
 		case 4:
 		{
-			switch (menu_level_2)
+			switch (menuLevel2)
 			{
 			case 1: // 4.1 상품 정보 검색
 				buyProduct = productBuy::getWanted(&productCollection);
@@ -124,7 +128,7 @@ void doTask()
 		}
 		case 5:
 		{
-			switch (menu_level_2)
+			switch (menuLevel2)
 			{
 			case 1:
 				new ShowStatistics(loginedUser);
@@ -134,10 +138,11 @@ void doTask()
 		}
 		case 6:
 		{
-			switch (menu_level_2)
+			switch (menuLevel2)
 			{
 			case 1:
-				is_program_exit = 1;
+				isProgramExit = 1;
+				fout << "6.1. 종료";
 				break;
 			}
 			break;
@@ -146,15 +151,14 @@ void doTask()
 		fout << endl;
 	}
 
-	if (is_program_exit == 1)
+	if (isProgramExit == 1)
 	{
-		program_exit();
+		exitProgram();
 		return;
 	}
 }
 
-void program_exit() {
-	fout << "6.1. 종료";
+void exitProgram() {
 	fin.close();
 	fout.close();
 }

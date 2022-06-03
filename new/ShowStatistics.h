@@ -30,16 +30,6 @@ public:
         ui.print(user->listProductsSelling());
     }
 
-    void setUser(User* value)
-    {
-        user = value;
-    }
-
-    User* getUser()
-    {
-        return user;
-    }
-
     void setUi(ShowStatisticsUI value)
     {
         ui = value;
@@ -54,7 +44,6 @@ private:
     // Private attributes
     //
 
-    User* user;
     ShowStatisticsUI ui;
 };
 

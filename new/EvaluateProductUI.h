@@ -43,9 +43,9 @@ public:
     return score;
   }
 
-  void print(Product* product)
+  void print(Product* product, int score)
   {
-    fout << "4.4. 상품 구매만족도 평가" << endl << "> " << product->getSellerId() << " " << product->getName() << " " << product->getAverageRate() << endl;
+    fout << "4.4. 상품 구매만족도 평가" << endl << "> " << product->getSellerId() << " " << product->getName() << " " << score << endl;
   }
 
 private:

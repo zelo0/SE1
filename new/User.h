@@ -36,7 +36,7 @@ public:
     string sellerId = product->getSellerId();
 
     // id 에 해당하는 유저의 productsoldcollection에 해당상품 추가
-    fout << "4.2. 상품구매" << endl << "> " << sellerId << " " << product->getName() << "\n";
+    fout << "4.2. 상품 구매" << endl << "> " << sellerId << " " << product->getName() << "\n";
   }
 
   //------------------------

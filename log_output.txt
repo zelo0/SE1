@@ -1,3 +1,22 @@
+[5daesu] Fri Jun 3 12:57:26 2022 +0900 과제3보고서수정본 e31487a
+[5daesu] Fri Jun 3 12:39:55 2022 +0900 과제3 보고서 579bb15
+[zelo0] Fri Jun 3 12:03:05 2022 +0900 커뮤니케이션 다이어그램 수정 bf3475e
+[zelo0] Fri Jun 3 10:57:26 2022 +0900 evaluateProduct 깔끔하게 변경 703d5aa
+[zelo0] Fri Jun 3 10:34:02 2022 +0900 작동되는 코드 22fe892
+[lastname-dev] Fri Jun 3 08:38:38 2022 +0900 jm 8c3f7bb
+[zelo0] Fri Jun 3 02:35:39 2022 +0900 컬렉션 있는 다이어그램 63d7ff4
+[lastname-dev] Thu Jun 2 01:03:05 2022 +0900 collection 19bd4fe
+[zelo0] Thu Jun 2 00:59:52 2022 +0900 new version 7f8060e
+[lastname-dev] Wed Jun 1 23:41:25 2022 +0900 Add files via upload 7a337b3
+[5daesu] Wed Jun 1 23:40:18 2022 +0900 과제3 06e99e8
+[lastname-dev] Wed Jun 1 23:37:44 2022 +0900 code 8242276
+[jeehjo jung] Wed Jun 1 23:01:44 2022 +0900 vs 폴더 0762eab
+[zelo0] Wed Jun 1 18:21:08 2022 +0900 code - jung wrote bdcca8b
+[lastname-dev] Mon May 30 04:55:52 2022 +0900 과제3 파싱 코드 ffd2730
+[5daesu] Sun May 29 18:22:00 2022 +0900 메뉴파싱 9bd89f8
+[lastname-dev] Thu May 19 02:14:49 2022 +0900 소프트웨어공학 과제2 제출본 3b051f9
+[5daesu] Thu May 19 02:12:15 2022 +0900 log 8eb6bb2
+[zelo0] Thu May 19 02:11:06 2022 +0900 깃 로그 파일 e397c82
 [lastname-dev] Thu May 19 02:07:56 2022 +0900 소프트웨어 공학 과제2 fb21158
 [5daesu] Thu May 19 02:05:18 2022 +0900 Merge branch 'master' of https://github.com/zelo0/SE1 d9a2467
 [5daesu] Thu May 19 02:04:54 2022 +0900 캡쳐본 1445e45

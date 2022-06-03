@@ -61,11 +61,8 @@ public:
                 return products[i];
                 break;
             }
-            else
-            {
-                return products[0];
-            }
         }
+        return nullptr;
     }
 
 private:

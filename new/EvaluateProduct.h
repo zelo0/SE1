@@ -29,10 +29,12 @@ public:
 
   EvaluateProduct(User* user)
   {
+    int score;
     setProductName(ui.readProductName());
-    setRatingScore(ui.readScore());
+    score = ui.readScore();
+    setRatingScore(score);
     Product* product = user->addRating(productName, ratingScore);
-    ui.print(product);
+    ui.print(product, score);
   }
 
   void setProductName(std::string value)
@@ -55,15 +57,6 @@ public:
     return ratingScore;
   }
 
-  void setUser(User *value)
-  {
-    user = value;
-  }
-
-  User *getUser()
-  {
-    return user;
-  }
 
   void setUi(EvaluateProductUI value)
   {
@@ -78,7 +71,6 @@ public:
 private:
   std::string productName;
   int ratingScore;
-  User *user;
   EvaluateProductUI ui;
 };
 

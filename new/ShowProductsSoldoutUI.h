@@ -32,7 +32,7 @@ public:
 
   void print(vector<Product *> productList)
   {
-    fout << "4.3. 상품 구매 내역 죠회" << endl;
+    fout << "3.3. 판매 완료 상품 조회" << endl;
 
     sort(productList.begin(), productList.end(), compareByName);
     for (size_t i = 0; i < productList.size(); i++)
